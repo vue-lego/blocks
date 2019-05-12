@@ -8,7 +8,9 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { copy as copyCmd } from '@/utils/commands';
-@Component
+@Component({
+  name: 'b-copy'
+})
 export default class BCopy extends Vue {
   /**
    * The content that will get copied
