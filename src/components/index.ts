@@ -1,1 +1,1 @@
-import './BCopy';
+export * from './BCopy';
