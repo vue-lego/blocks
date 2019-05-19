@@ -1,7 +1,6 @@
 {
   "name": "@vue-lego/blocks",
-  "version": "0.1.1",
-  "private": false,
+  "version": "0.1.2",
   "author": {
     "email": "praveenpuglia@gmail.com",
     "name": "Praveen Puglia",
