@@ -7,7 +7,7 @@
     "name": "Praveen Puglia",
     "url": "https://praveenpuglia.com"
   },
-  "main": "./dist/blocks.js",
+  "main": "./dist/blocks.common.js",
   "repository": "https://github.com/vue-lego/blocks",
   "license": "MIT",
   "scripts": {
