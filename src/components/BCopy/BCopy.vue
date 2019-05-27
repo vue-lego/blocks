@@ -9,7 +9,7 @@
 import { Component, Prop, Vue } from 'vue-property-decorator';
 import { copy as copyCmd } from '@/utils/commands';
 @Component({
-  name: 'BCopy'
+  name: 'b-copy'
 })
 export default class BCopy extends Vue {
   /**

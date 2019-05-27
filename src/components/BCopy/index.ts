@@ -7,4 +7,4 @@ const BCopyPlugin = {
   }
 };
 export default BCopy;
-export { BCopyPlugin };
+export { BCopyPlugin, BCopy };
