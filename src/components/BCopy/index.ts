@@ -3,7 +3,8 @@ import { VueConstructor } from 'vue';
 
 const BCopyPlugin = {
   install(Vue: VueConstructor) {
-    Vue.component(BCopy.name, BCopy);
+    // TODO: remove the need to casting BCopy to any
+    Vue.component((BCopy as any).options.name, BCopy);
   }
 };
 export default BCopy;
